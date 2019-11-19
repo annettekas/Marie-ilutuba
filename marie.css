@@ -1,0 +1,45 @@
+body {
+  background-image: url("pattern.jpg");
+}
+
+h1 {
+  font-family: "Times new roman";
+}  
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+table#t01 {
+  background-color: white;
+  border: 1px solid black;
+}
+
+img#i01 {
+  border-radius: 8px;
+}
+
+img#i02 {
+  border-radius: 8px;
+  border: 3px  solid white;
+}
+
+table#t02 {
+  text-align: left;
+  background-color: white;
+}
+
+table#t03 {
+  text-align: left;
+  background-color: white;
+}
+
+
+
